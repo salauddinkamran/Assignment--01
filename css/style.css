@@ -141,3 +141,71 @@ body {
   color: rgb(0, 0, 0, .5);
 }
 /* Productive Section Style End */
+
+
+/* Feedback Section Style Start */
+.feedback {
+  margin: 120px 0;
+  padding: 0 150px;
+}
+
+.feedback h2 {
+  font-size: 42px;
+  color: #252432;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feedback .feedback-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.feedback .feedback-container .feedback-item-box {
+  background-color: #FAFCFF;
+  box-shadow:10px 10px 50px rgb(0, 0, 0, .1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feedback .feedback-container .feedback-item-box h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback .feedback-container .feedback-item-box .feedback-text {
+  padding: 5px 0 20px 0;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box {
+  display: flex;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box .user-img {
+  border-radius: 50%;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box .user-img img {
+  border-radius: 50%;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box .user-text {
+  margin-left: 15px;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box .user-text p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.feedback .feedback-container .feedback-item-box .user-box .user-text span {
+  color: #757575;
+  font-size: 14px;
+}
+
+/* Feedback Section Style End */
