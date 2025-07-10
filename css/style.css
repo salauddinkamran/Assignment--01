@@ -246,3 +246,52 @@ body {
   border-radius: 40px;
 }
 /* GetStart Section Style End */
+
+
+/* Form Section Style Start */
+.form-section {
+  margin: 120px 0;
+  padding: 0 150px;
+}
+
+.form-section .form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-section .form-container h1 {
+  font-size: 97px;
+  color: #000000;
+}
+
+.form-section .form-container form {
+  width: 45%;
+}
+
+.form-section .form-container form .form-item {
+  margin-bottom: 20px;
+}
+
+.form-section .form-container form .form-item label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form-section .form-container form .form-item input, textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #757575;
+  font-size: medium;
+}
+
+.form-section .form-container form  .btn {
+  width: 100%;
+}
+
+/* Form Section Style End */
