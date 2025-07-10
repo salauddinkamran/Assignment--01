@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: #F5F8FF;
   font-family: "Raleway", sans-serif;
 }
 
@@ -209,3 +210,39 @@ body {
 }
 
 /* Feedback Section Style End */
+
+
+/* GetStart Section Style Start */
+.getStart {
+  margin: 120px 0;
+  padding: 0 150px;
+}
+
+.getStart .get-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 70px 150px;
+  border-radius: 10px;
+}
+
+.getStart .get-container h2 {
+  font-size: 50px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.getStart .get-container p {
+  color: rgb(0, 0, 0, .5);
+  margin: 20px 0;
+}
+
+.getStart .get-container .btn-box {
+  margin-bottom: 20px;
+}
+
+.getStart .get-container img {
+  border-radius: 40px;
+}
+/* GetStart Section Style End */
