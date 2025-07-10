@@ -288,6 +288,7 @@ body {
   border-radius: 5px;
   color: #757575;
   font-size: medium;
+  border: 1px solid #ddd;
 }
 
 .form-section .form-container form  .btn {
@@ -295,3 +296,39 @@ body {
 }
 
 /* Form Section Style End */
+
+
+/* Footer Section Style Start */
+.footer {
+  background: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.footer .footer-logo {
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer p {
+  color: #8987A1;
+  padding: 10px 0;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #8987A1;
+
+}
+/* Footer Section Style End */
