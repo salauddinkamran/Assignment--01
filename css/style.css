@@ -101,3 +101,43 @@ body {
 /* Action Section Style End */
 
 
+/* Productive Section Style Start */
+.productive {
+  margin: 120px 0;
+  padding: 0 150px;
+}
+
+.productive-container {
+  background-color: #E4E6FF;
+  padding: 50px 80px;
+  border-radius: 20px;
+}
+
+.productive-container h2 {
+  font-size: 38px;
+  color: #252432;
+  text-align: center;
+}
+
+.productive-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.productive-items .item-box {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.productive-items .item-box h1{
+  color: #4E47FF;
+  font-size: 80px;
+}
+
+.productive-items .item-box span {
+  font-size: 20px;
+  color: rgb(0, 0, 0, .5);
+}
+/* Productive Section Style End */
