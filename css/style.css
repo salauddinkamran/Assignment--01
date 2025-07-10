@@ -1,0 +1,69 @@
+/* Google Font Cdn Link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Header Section Style Start */
+.header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 0px 150px;
+  padding-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 34px;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background-color: #5c57f0;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Header Section Style End */
